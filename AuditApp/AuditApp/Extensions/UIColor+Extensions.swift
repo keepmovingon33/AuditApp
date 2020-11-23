@@ -30,5 +30,7 @@ extension UIColor {
     }
     
     static let mainTitle = UIColor(hexFromString: "007DB6")
+    static let lineView = UIColor(hexFromString: "E8E8E8")
+    static let lightBlack = UIColor(hexFromString: "333333")
 }
 
