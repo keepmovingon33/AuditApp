@@ -16,3 +16,17 @@ struct AuditGuideConstants {
     static let label3 = "Mandatory Samples"
     static let label4 = "Manual contamination picking station"
 }
+
+struct ProductDetails {
+    static let title = "Product Details"
+    static let factoryNameSymbolTitle = "Factory name & symbol"
+    static let auditDateQuarter = "Audit date & quarter"
+    static let productDetailsLabel = "Product Details"
+    static let gradeLabel = "Grade"
+    static let lotNoLabel = "Lot no."
+    static let prodnDateLabel = "Prodn date"
+    static let unitNo = "Unit no."
+    static let notesLabel = "Notes"
+    static let notesDescription = "1. Always pick the oldest stock to conduct the test \n2. Each Packing type is to be audited seperately (record in different checksheet)"
+    static let buttonTitle = "Done"
+}
