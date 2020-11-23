@@ -30,3 +30,21 @@ struct ProductDetails {
     static let notesDescription = "1. Always pick the oldest stock to conduct the test \n2. Each Packing type is to be audited seperately (record in different checksheet)"
     static let buttonTitle = "Done"
 }
+
+struct QualityChecklist {
+    static let title = "Quality Checklist"
+    static let pageLabel = "3 of 9"
+    static let qualityNumberLabel = "B1.3.3 "
+    static let qualityDescriptionLabel = "Proper workstation should be designed for the operators taking into consideration ergonomics, safety and efficiency. Example: crumb spreading jig may be installed to spread the crumbs evenly on the conveyor so that operators do not need to spread the crumb with hands. Waste receptacles should be placed close to the operators to minimize their movement, operators should be standing in positions where they do not need to bend their bodies to pick the contaminants from the conveyor, and if the operators are required to stand at height, a safety feature to prevent falling should be available. "
+    static let auditTrailsLabel = "Audit Trails"
+    static let cLabel = "C"
+    static let cDescriptionLabel = "Compliant"
+    static let ncLabel = "NC"
+    static let ncDescriptionLabel = "Non-compliant"
+    static let ofiLabel = "OFI"
+    static let ofiDescriptionLabel = "Opportunity for Improvement"
+    static let naLabel = "NA"
+    static let naDescriptionLabel = "Not Applicable"
+    static let previousButtonTitle = "Previous"
+    static let nextButtonTitle = "Next"
+}
