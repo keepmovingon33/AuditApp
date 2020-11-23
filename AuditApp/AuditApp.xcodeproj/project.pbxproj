@@ -10,11 +10,11 @@
 		0F1DC5CA2752C0C5102F6371 /* Pods_AuditApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EA81A8B9BC2D92FBA1769A /* Pods_AuditApp.framework */; };
 		33CA9E41256B31FD0037B57A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CA9E40256B31FD0037B57A /* AppDelegate.swift */; };
 		33CA9E43256B31FD0037B57A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CA9E42256B31FD0037B57A /* SceneDelegate.swift */; };
-		33CA9E45256B31FD0037B57A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CA9E44256B31FD0037B57A /* ViewController.swift */; };
 		33CA9E48256B31FD0037B57A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CA9E46256B31FD0037B57A /* Main.storyboard */; };
 		33CA9E4A256B31FD0037B57A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33CA9E49256B31FD0037B57A /* Assets.xcassets */; };
 		33CA9E4D256B31FD0037B57A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CA9E4B256B31FD0037B57A /* LaunchScreen.storyboard */; };
 		33CA9E58256B31FD0037B57A /* AuditAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CA9E57256B31FD0037B57A /* AuditAppTests.swift */; };
+		33CA9E66256B35B40037B57A /* AuditGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CA9E65256B35B40037B57A /* AuditGuideViewController.swift */; };
 		B0711193F148394468E8DC04 /* Pods_AuditAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F5F9FE56796E9F4F4A30A8 /* Pods_AuditAppTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +32,6 @@
 		33CA9E3D256B31FD0037B57A /* AuditApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuditApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33CA9E40256B31FD0037B57A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33CA9E42256B31FD0037B57A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		33CA9E44256B31FD0037B57A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		33CA9E47256B31FD0037B57A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33CA9E49256B31FD0037B57A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33CA9E4C256B31FD0037B57A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +39,7 @@
 		33CA9E53256B31FD0037B57A /* AuditAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuditAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33CA9E57256B31FD0037B57A /* AuditAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditAppTests.swift; sourceTree = "<group>"; };
 		33CA9E59256B31FD0037B57A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33CA9E65256B35B40037B57A /* AuditGuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditGuideViewController.swift; sourceTree = "<group>"; };
 		37EA81A8B9BC2D92FBA1769A /* Pods_AuditApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuditApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69D2D07506758877F2DA7AD7 /* Pods-AuditAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuditAppTests.release.xcconfig"; path = "Target Support Files/Pods-AuditAppTests/Pods-AuditAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		835819B8D3B58E69FD8B1FC1 /* Pods-AuditAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuditAppTests.debug.xcconfig"; path = "Target Support Files/Pods-AuditAppTests/Pods-AuditAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -91,13 +91,9 @@
 		33CA9E3F256B31FD0037B57A /* AuditApp */ = {
 			isa = PBXGroup;
 			children = (
-				33CA9E40256B31FD0037B57A /* AppDelegate.swift */,
-				33CA9E42256B31FD0037B57A /* SceneDelegate.swift */,
-				33CA9E44256B31FD0037B57A /* ViewController.swift */,
-				33CA9E46256B31FD0037B57A /* Main.storyboard */,
-				33CA9E49256B31FD0037B57A /* Assets.xcassets */,
-				33CA9E4B256B31FD0037B57A /* LaunchScreen.storyboard */,
-				33CA9E4E256B31FD0037B57A /* Info.plist */,
+				33CA9E64256B35340037B57A /* Resources */,
+				33CA9E63256B35210037B57A /* Apps */,
+				33CA9E62256B350E0037B57A /* ViewController */,
 			);
 			path = AuditApp;
 			sourceTree = "<group>";
@@ -109,6 +105,34 @@
 				33CA9E59256B31FD0037B57A /* Info.plist */,
 			);
 			path = AuditAppTests;
+			sourceTree = "<group>";
+		};
+		33CA9E62256B350E0037B57A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				33CA9E65256B35B40037B57A /* AuditGuideViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		33CA9E63256B35210037B57A /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				33CA9E40256B31FD0037B57A /* AppDelegate.swift */,
+				33CA9E42256B31FD0037B57A /* SceneDelegate.swift */,
+				33CA9E4E256B31FD0037B57A /* Info.plist */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		33CA9E64256B35340037B57A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				33CA9E49256B31FD0037B57A /* Assets.xcassets */,
+				33CA9E4B256B31FD0037B57A /* LaunchScreen.storyboard */,
+				33CA9E46256B31FD0037B57A /* Main.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		4A7106A165FCA3B36A177165 /* Frameworks */ = {
@@ -128,7 +152,6 @@
 				835819B8D3B58E69FD8B1FC1 /* Pods-AuditAppTests.debug.xcconfig */,
 				69D2D07506758877F2DA7AD7 /* Pods-AuditAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -282,7 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33CA9E45256B31FD0037B57A /* ViewController.swift in Sources */,
+				33CA9E66256B35B40037B57A /* AuditGuideViewController.swift in Sources */,
 				33CA9E41256B31FD0037B57A /* AppDelegate.swift in Sources */,
 				33CA9E43256B31FD0037B57A /* SceneDelegate.swift in Sources */,
 			);
@@ -447,7 +470,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ML5C6ZYMKV;
-				INFOPLIST_FILE = AuditApp/Info.plist;
+				INFOPLIST_FILE = AuditApp/Apps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,7 +489,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ML5C6ZYMKV;
-				INFOPLIST_FILE = AuditApp/Info.plist;
+				INFOPLIST_FILE = AuditApp/Apps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
