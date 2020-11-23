@@ -12,19 +12,20 @@ class AuditGuideViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        setupNavigation()
     }
     
+    func setupNavigation() {
+        title = AuditConstants.auditGuideTitle
+        let closeButton = UIBarButtonItem(image: UIImage(named: "ic_close"), style: .plain, target: self, action: nil)
+        self.navigationItem.leftBarButtonItem  = closeButton
+        
+        navigationController?.navigationBar.barTintColor = UIColor.white
+        navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.mainTitle]
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
     }
-    */
 
+    
 }
+
