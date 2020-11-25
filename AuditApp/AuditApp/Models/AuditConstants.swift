@@ -48,3 +48,8 @@ struct QualityChecklist {
     static let previousButtonTitle = "Previous"
     static let nextButtonTitle = "Next"
 }
+
+struct AuditSystems {
+    static let title = "Audit Systems"
+    static let image = "ic_menu"
+}

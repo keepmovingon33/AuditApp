@@ -34,8 +34,6 @@ class AuditGuideViewController: UIViewController {
 
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
         self.navigationController?.navigationBar.shadowImage = UIImage()
-
-        
     }
     
     func dataBiding() {
