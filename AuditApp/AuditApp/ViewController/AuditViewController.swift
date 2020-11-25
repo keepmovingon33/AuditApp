@@ -9,22 +9,23 @@
 import UIKit
 
 class AuditViewController: UIViewController {
-
+    
+    @IBOutlet weak var factoryNameView: CustomAuditDetailsView!
+    @IBOutlet weak var produceCodeView: CustomAuditDetailsView!
+    @IBOutlet weak var addressView: CustomAuditDetailsView!
+    @IBOutlet weak var registrationNumberView: CustomAuditDetailsView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        setupView()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func setupView() {
+        factoryNameView.bindingData(title: "Factory Name", value: "Hi")
+        produceCodeView.bindingData(title: "Producer Code")
+        addressView.bindingData(title: "Address")
+        registrationNumberView.bindingData(title: "Registration", placeholder: "hi")
     }
-    */
 
 }
