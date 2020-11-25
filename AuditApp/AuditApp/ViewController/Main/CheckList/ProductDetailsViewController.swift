@@ -35,7 +35,7 @@ class ProductDetailsViewController: UIViewController {
 
     func setupNavigationBar() {
         title = ProductDetails.title
-        let closeButton = UIBarButtonItem(image: UIImage(named: "ic_close"), style: .plain, target: self, action: nil)
+        let closeButton = UIBarButtonItem(image: UIImage(named: ProductDetails.image), style: .plain, target: self, action: nil)
         self.navigationItem.leftBarButtonItem = closeButton
         
         navigationController?.navigationBar.barTintColor = UIColor.white

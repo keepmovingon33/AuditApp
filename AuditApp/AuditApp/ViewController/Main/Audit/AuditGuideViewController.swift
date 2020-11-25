@@ -26,7 +26,7 @@ class AuditGuideViewController: UIViewController {
     
     func setupNavigation() {
         title = AuditGuideConstants.auditGuideTitle
-        let closeButton = UIBarButtonItem(image: UIImage(named: "ic_close"), style: .plain, target: self, action: nil)
+        let closeButton = UIBarButtonItem(image: UIImage(named: AuditGuideConstants.closeButton), style: .plain, target: self, action: nil)
         self.navigationItem.leftBarButtonItem  = closeButton
         
         navigationController?.navigationBar.barTintColor = UIColor.white

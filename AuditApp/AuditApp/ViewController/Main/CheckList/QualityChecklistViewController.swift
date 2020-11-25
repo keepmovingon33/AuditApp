@@ -38,10 +38,10 @@ class QualityChecklistViewController: UIViewController {
     
     func setupNavigationBar() {
         title = QualityChecklist.title
-        let backButton = UIBarButtonItem(image: UIImage(named: "left_arrow"), style: .plain, target: self, action: nil)
+        let backButton = UIBarButtonItem(image: UIImage(named: QualityChecklist.backButton), style: .plain, target: self, action: nil)
         self.navigationItem.leftBarButtonItem = backButton
         
-        let infoButton = UIBarButtonItem(image: UIImage(named: "ic_info"), style: .plain, target: self, action: nil)
+        let infoButton = UIBarButtonItem(image: UIImage(named: QualityChecklist.infoButton), style: .plain, target: self, action: nil)
         self.navigationItem.rightBarButtonItem = infoButton
         
         navigationController?.navigationBar.barTintColor = UIColor.white

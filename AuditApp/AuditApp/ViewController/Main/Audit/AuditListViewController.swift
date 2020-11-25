@@ -56,12 +56,35 @@ class AuditListViewController: UIViewController {
         super.viewDidLoad()
 
         dataBinding()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        setupNavigation()
+    }
+    
+    func setupNavigation() {
+        title = AuditLists.title
+        navigationController?.navigationBar.barTintColor = UIColor.white
+        navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.mainTitle]
         
+        self.navigationController?.navigationBar.shadowImage = UIImage()
+    }
+    
+    func setupNavigationd() {
+        title = AuditSystems.title
+        let menuButton = UIBarButtonItem(image: UIImage(named: AuditSystems.image), style: .plain, target: self, action: nil)
+        self.navigationItem.leftBarButtonItem = menuButton
+        
+        navigationController?.navigationBar.barTintColor = UIColor.white
+        navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.mainTitle]
+        
+        self.navigationController?.navigationBar.shadowImage = UIImage()
     }
     
     func dataBinding() {
         tableView.tableFooterView = UIView(frame: CGRect(x: 0, y: 0, width: tableView.frame.size.width, height: 1))
-        items.bind(to: tableView.rx.items(cellIdentifier: "AuditItemTableViewCell")) { row, model, cell in
+        items.bind(to: tableView.rx.items(cellIdentifier: AuditLists.identifier)) { row, model, cell in
             if let cell = cell as? AuditItemTableViewCell {
                 cell.dataBinding()
             }

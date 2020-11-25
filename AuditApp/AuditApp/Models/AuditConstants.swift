@@ -15,6 +15,7 @@ struct AuditGuideConstants {
     static let label2 = "Auditor should observe how operators carry the job and evaluated does the workstation design facilitate or hinder the manual job."
     static let label3 = "Mandatory Samples"
     static let label4 = "Manual contamination picking station"
+    static let closeButton = "ic_close"
 }
 
 struct ProductDetails {
@@ -29,6 +30,7 @@ struct ProductDetails {
     static let notesLabel = "Notes"
     static let notesDescription = "1. Always pick the oldest stock to conduct the test \n2. Each Packing type is to be audited seperately (record in different checksheet)"
     static let buttonTitle = "Done"
+    static let image = "ic_close"
 }
 
 struct QualityChecklist {
@@ -47,9 +49,38 @@ struct QualityChecklist {
     static let naDescriptionLabel = "Not Applicable"
     static let previousButtonTitle = "Previous"
     static let nextButtonTitle = "Next"
+    static let backButton = "left_arrow"
+    static let infoButton = "ic_info"
 }
 
 struct AuditSystems {
     static let title = "Audit Systems"
     static let image = "ic_menu"
+}
+
+struct AuditLists {
+    static let title = "Audit Lists"
+    static let identifier = "AuditItemTableViewCell"
+}
+
+struct AuditScreen {
+    static let createNewAuditTitle = "Create New Audit"
+    static let backButton = "left_arrow"
+    static let referenceAuditNumber = "Reference audit number"
+    static let auditResults = "Audit Results"
+    static let auditScore = "Audit's score"
+    static let numberRepeatedNonconformity = "No. of Repeated Nonconfomity:"
+    static let factoryDetails = "Factory Details"
+    static let factoryName = "Factory Name"
+    static let produceCode = "Producer code"
+    static let address = "Address"
+    static let registrationNumber = "Registration number"
+    static let auditDetails = "Audit Details"
+    static let dateOf = "Date of audit"
+    static let qadEditor = "QAD editor"
+    static let designedCap = "Designed cap."
+    static let aveMonthlyPrdn = "Ave. monthly prdn."
+    static let factoryManager = "Factory manager"
+    static let headOfQA = "Head of QA"
+    static let doneBtn = "Done"
 }

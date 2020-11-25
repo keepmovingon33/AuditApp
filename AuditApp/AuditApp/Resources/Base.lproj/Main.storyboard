@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dT5-1K-JQ1">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XfF-2J-4fi">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -129,7 +129,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2ck-oh-uZc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5355" y="119"/>
+            <point key="canvasLocation" x="6268.115942028986" y="118.52678571428571"/>
         </scene>
         <!--Audit Systems View Controller-->
         <scene sceneID="47j-o4-zP8">
@@ -140,7 +140,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXi-uJ-ddv">
-                                <rect key="frame" x="16" y="98" width="382" height="112"/>
+                                <rect key="frame" x="16" y="54" width="382" height="112"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="112" id="QWB-a4-ihf"/>
                                 </constraints>
@@ -162,7 +162,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NoJ-bV-ozR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2869.5652173913045" y="-1245.5357142857142"/>
+            <point key="canvasLocation" x="7334.7826086956529" y="118.52678571428571"/>
         </scene>
         <!--Quality Checklist View Controller-->
         <scene sceneID="AlX-pg-Z9Y">
@@ -623,7 +623,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7KO-Ld-S15" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2268" y="119"/>
+            <point key="canvasLocation" x="3220" y="119"/>
         </scene>
         <!--Audit View Controller-->
         <scene sceneID="le3-6D-NcH">
@@ -634,12 +634,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fvm-zP-Qwz">
-                                <rect key="frame" x="0.0" y="44" width="414" height="1322"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="1278"/>
                                 <subviews>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YOF-fk-Dbo">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1251"/>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YOF-fk-Dbo">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1207"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="XaA-be-B7N">
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="XaA-be-B7N">
                                                 <rect key="frame" x="16" y="12" width="382" height="1148"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RKc-bb-NXb">
@@ -680,7 +680,7 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
-                                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DRR-H6-AdJ">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DRR-H6-AdJ">
                                                         <rect key="frame" x="0.0" y="61" width="382" height="195"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sow-X2-hH8">
@@ -696,11 +696,11 @@
                                                                     <constraint firstAttribute="height" constant="0.5" id="h7g-iq-Ojo"/>
                                                                 </constraints>
                                                             </view>
-                                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M1j-gM-dZr" customClass="CustomAuditDetailsView" customModule="AuditApp" customModuleProvider="target">
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M1j-gM-dZr" customClass="CustomAuditDetailsView" customModule="AuditApp" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="49.5" width="382" height="68.5"/>
                                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                             </view>
-                                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AtS-kC-LTe" customClass="CustomAuditDetailsView" customModule="AuditApp" customModuleProvider="target">
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AtS-kC-LTe" customClass="CustomAuditDetailsView" customModule="AuditApp" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="130" width="382" height="65"/>
                                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                             </view>
@@ -722,7 +722,7 @@
                                                             <constraint firstItem="Sow-X2-hH8" firstAttribute="top" secondItem="DRR-H6-AdJ" secondAttribute="top" id="ux6-F7-DSv"/>
                                                         </constraints>
                                                     </view>
-                                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0qF-44-Eii">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0qF-44-Eii">
                                                         <rect key="frame" x="0.0" y="276" width="382" height="349"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GXv-QJ-UgA">
@@ -738,19 +738,19 @@
                                                                     <constraint firstAttribute="height" constant="0.5" id="Isz-gP-esT"/>
                                                                 </constraints>
                                                             </view>
-                                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Avt-89-WAK" customClass="CustomAuditDetailsView" customModule="AuditApp" customModuleProvider="target">
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Avt-89-WAK" customClass="CustomAuditDetailsView" customModule="AuditApp" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="49.5" width="382" height="68.5"/>
                                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                             </view>
-                                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8cv-TW-vTs" customClass="CustomAuditDetailsView" customModule="AuditApp" customModuleProvider="target">
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8cv-TW-vTs" customClass="CustomAuditDetailsView" customModule="AuditApp" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="130" width="382" height="65"/>
                                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                             </view>
-                                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sic-NX-7CA" customClass="CustomAuditDetailsView" customModule="AuditApp" customModuleProvider="target">
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sic-NX-7CA" customClass="CustomAuditDetailsView" customModule="AuditApp" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="207" width="382" height="65"/>
                                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                             </view>
-                                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="47S-nJ-fC4" customClass="CustomAuditDetailsView" customModule="AuditApp" customModuleProvider="target">
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="47S-nJ-fC4" customClass="CustomAuditDetailsView" customModule="AuditApp" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="284" width="382" height="65"/>
                                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                             </view>
@@ -778,7 +778,7 @@
                                                             <constraint firstAttribute="trailing" secondItem="GXv-QJ-UgA" secondAttribute="trailing" id="zlm-EL-PkH"/>
                                                         </constraints>
                                                     </view>
-                                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RKL-0v-2lY">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RKL-0v-2lY">
                                                         <rect key="frame" x="0.0" y="645" width="382" height="503"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qyt-TI-KH4">
@@ -794,27 +794,27 @@
                                                                     <constraint firstAttribute="height" constant="0.5" id="IIq-1L-z6Z"/>
                                                                 </constraints>
                                                             </view>
-                                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Kf-aj-feB" customClass="CustomAuditDetailsView" customModule="AuditApp" customModuleProvider="target">
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Kf-aj-feB" customClass="CustomAuditDetailsView" customModule="AuditApp" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="49.5" width="382" height="68.5"/>
                                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                             </view>
-                                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pqi-hy-hlF" customClass="CustomAuditDetailsView" customModule="AuditApp" customModuleProvider="target">
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pqi-hy-hlF" customClass="CustomAuditDetailsView" customModule="AuditApp" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="130" width="382" height="65"/>
                                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                             </view>
-                                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m5m-2O-Kgw" customClass="CustomAuditDetailsView" customModule="AuditApp" customModuleProvider="target">
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m5m-2O-Kgw" customClass="CustomAuditDetailsView" customModule="AuditApp" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="207" width="382" height="65"/>
                                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                             </view>
-                                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I9w-0z-5LW" customClass="CustomAuditDetailsView" customModule="AuditApp" customModuleProvider="target">
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I9w-0z-5LW" customClass="CustomAuditDetailsView" customModule="AuditApp" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="284" width="382" height="65"/>
                                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                             </view>
-                                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bks-um-Leq" customClass="CustomAuditDetailsView" customModule="AuditApp" customModuleProvider="target">
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bks-um-Leq" customClass="CustomAuditDetailsView" customModule="AuditApp" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="361" width="382" height="65"/>
                                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                             </view>
-                                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aQy-dH-La4" customClass="CustomAuditDetailsView" customModule="AuditApp" customModuleProvider="target">
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aQy-dH-La4" customClass="CustomAuditDetailsView" customModule="AuditApp" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="438" width="382" height="65"/>
                                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                             </view>
@@ -859,7 +859,7 @@
                                         </constraints>
                                     </scrollView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Bw-zN-6hi">
-                                        <rect key="frame" x="0.0" y="1251" width="414" height="71"/>
+                                        <rect key="frame" x="0.0" y="1207" width="414" height="71"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O6m-ZG-ofQ">
                                                 <rect key="frame" x="16" y="0.0" width="382" height="41"/>
@@ -898,14 +898,27 @@
                     <size key="freeformSize" width="414" height="1400"/>
                     <connections>
                         <outlet property="addressView" destination="Sic-NX-7CA" id="O6b-x8-BLf"/>
+                        <outlet property="auditDetailsLabel" destination="qyt-TI-KH4" id="533-5c-URJ"/>
+                        <outlet property="auditResultsLabel" destination="Sow-X2-hH8" id="hbx-cj-Gjs"/>
+                        <outlet property="auditScoreLabel" destination="M1j-gM-dZr" id="u7t-ut-7XX"/>
+                        <outlet property="aveMonthlyPrdnLabel" destination="I9w-0z-5LW" id="Ueo-cf-R6x"/>
+                        <outlet property="dateOfAuditLabel" destination="2Kf-aj-feB" id="6cU-JG-Anc"/>
+                        <outlet property="designedCapLabel" destination="m5m-2O-Kgw" id="XFc-h6-ryf"/>
+                        <outlet property="doneBtn" destination="O6m-ZG-ofQ" id="SMz-M8-q8b"/>
+                        <outlet property="factoryDetailsLabel" destination="GXv-QJ-UgA" id="7jg-mW-flx"/>
+                        <outlet property="factoryManagerLabel" destination="Bks-um-Leq" id="Sve-mX-BA4"/>
                         <outlet property="factoryNameView" destination="Avt-89-WAK" id="EOl-37-yhZ"/>
+                        <outlet property="headOfQALabel" destination="aQy-dH-La4" id="Vd6-he-DpP"/>
+                        <outlet property="numberRepeatedNonconformityLabel" destination="AtS-kC-LTe" id="cVr-l6-GHl"/>
                         <outlet property="produceCodeView" destination="8cv-TW-vTs" id="bil-PB-xiL"/>
+                        <outlet property="qadEditorLabel" destination="pqi-hy-hlF" id="AIY-aH-KoG"/>
+                        <outlet property="referenceAuditNumberLabel" destination="XaC-zT-Oje" id="ISI-rL-7mJ"/>
                         <outlet property="registrationNumberView" destination="47S-nJ-fC4" id="o79-HW-2hI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u1C-mF-uxV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4274" y="287"/>
+            <point key="canvasLocation" x="5472.463768115942" y="-745.98214285714278"/>
         </scene>
         <!--Audit Guide View Controller-->
         <scene sceneID="hgs-v3-nIU">
@@ -989,7 +1002,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eAf-fN-hwh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1362.3188405797102" y="118.52678571428571"/>
+            <point key="canvasLocation" x="2272.463768115942" y="118.52678571428571"/>
         </scene>
         <!--Product Details View Controller-->
         <scene sceneID="rM8-qf-eEG">
@@ -1358,25 +1371,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VdB-r6-1T2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3200" y="119"/>
+            <point key="canvasLocation" x="4121.739130434783" y="118.52678571428571"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="MC5-Kc-pSQ">
+        <scene sceneID="xxI-eq-rWD">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dT5-1K-JQ1" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XfF-2J-4fi" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fME-w4-6Vg">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2WH-uB-GsQ">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="63j-Pb-jFF" kind="relationship" relationship="rootViewController" id="qeI-qn-oEw"/>
+                        <segue destination="CvA-G7-KI8" kind="relationship" relationship="rootViewController" id="GUf-jR-Hh4"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2oQ-62-PW4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T7b-rt-V2m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1959.4202898550727" y="-1245.5357142857142"/>
+            <point key="canvasLocation" x="4563.768115942029" y="-746.65178571428567"/>
         </scene>
     </scenes>
     <resources>
