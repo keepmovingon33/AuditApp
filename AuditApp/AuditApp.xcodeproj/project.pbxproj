@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0F1DC5CA2752C0C5102F6371 /* Pods_AuditApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EA81A8B9BC2D92FBA1769A /* Pods_AuditApp.framework */; };
+		3309B685256F272300290D0F /* SectionItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3309B683256F272300290D0F /* SectionItemTableViewCell.swift */; };
+		3309B686256F272300290D0F /* SectionItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3309B684256F272300290D0F /* SectionItemTableViewCell.xib */; };
 		33784B7A256BFF370089F0FF /* SFProText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33784B79256BFF370089F0FF /* SFProText-Regular.ttf */; };
 		33784B7E256C032E0089F0FF /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33784B7D256C032E0089F0FF /* ProductDetailsViewController.swift */; };
 		33784B84256C08860089F0FF /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33784B83256C08860089F0FF /* UIView+Extensions.swift */; };
@@ -19,6 +21,8 @@
 		33886DCB256ED60D006A1119 /* AuditSystemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33886DCA256ED60D006A1119 /* AuditSystemsViewController.swift */; };
 		338DB98A256E9F7A0031B5AC /* AuditListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338DB989256E9F7A0031B5AC /* AuditListViewController.swift */; };
 		338DB992256EA6A90031B5AC /* AuditItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338DB991256EA6A90031B5AC /* AuditItemTableViewCell.swift */; };
+		33B6A69E256EF2EF002A62B2 /* AuditTrailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6A69D256EF2EF002A62B2 /* AuditTrailViewController.swift */; };
+		33B6A6A4256F187B002A62B2 /* SectionListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6A6A3256F187B002A62B2 /* SectionListsViewController.swift */; };
 		33CA9E41256B31FD0037B57A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CA9E40256B31FD0037B57A /* AppDelegate.swift */; };
 		33CA9E43256B31FD0037B57A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CA9E42256B31FD0037B57A /* SceneDelegate.swift */; };
 		33CA9E48256B31FD0037B57A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CA9E46256B31FD0037B57A /* Main.storyboard */; };
@@ -42,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3309B683256F272300290D0F /* SectionItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionItemTableViewCell.swift; sourceTree = "<group>"; };
+		3309B684256F272300290D0F /* SectionItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionItemTableViewCell.xib; sourceTree = "<group>"; };
 		33784B79256BFF370089F0FF /* SFProText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProText-Regular.ttf"; sourceTree = "<group>"; };
 		33784B7D256C032E0089F0FF /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
 		33784B83256C08860089F0FF /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
@@ -53,6 +59,8 @@
 		33886DCA256ED60D006A1119 /* AuditSystemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditSystemsViewController.swift; sourceTree = "<group>"; };
 		338DB989256E9F7A0031B5AC /* AuditListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditListViewController.swift; sourceTree = "<group>"; };
 		338DB991256EA6A90031B5AC /* AuditItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditItemTableViewCell.swift; sourceTree = "<group>"; };
+		33B6A69D256EF2EF002A62B2 /* AuditTrailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditTrailViewController.swift; sourceTree = "<group>"; };
+		33B6A6A3256F187B002A62B2 /* SectionListsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionListsViewController.swift; sourceTree = "<group>"; };
 		33CA9E3D256B31FD0037B57A /* AuditApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuditApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33CA9E40256B31FD0037B57A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33CA9E42256B31FD0037B57A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,9 +105,11 @@
 		338670C3256DD34D00B9F22A /* CustomedUI */ = {
 			isa = PBXGroup;
 			children = (
+				338670D0256DD70D00B9F22A /* BaseCustomView.swift */,
 				338670C4256DD38500B9F22A /* CustomAuditDetailsView.swift */,
 				338670CA256DD3CD00B9F22A /* CustomAuditDetailsView.xib */,
-				338670D0256DD70D00B9F22A /* BaseCustomView.swift */,
+				3309B683256F272300290D0F /* SectionItemTableViewCell.swift */,
+				3309B684256F272300290D0F /* SectionItemTableViewCell.xib */,
 			);
 			path = CustomedUI;
 			sourceTree = "<group>";
@@ -120,6 +130,7 @@
 				338DB989256E9F7A0031B5AC /* AuditListViewController.swift */,
 				33CA9E65256B35B40037B57A /* AuditGuideViewController.swift */,
 				33886DCA256ED60D006A1119 /* AuditSystemsViewController.swift */,
+				33B6A69D256EF2EF002A62B2 /* AuditTrailViewController.swift */,
 				338DB990256EA6660031B5AC /* Cells */,
 			);
 			path = Audit;
@@ -138,6 +149,7 @@
 			children = (
 				33784B7D256C032E0089F0FF /* ProductDetailsViewController.swift */,
 				33784B87256C45D60089F0FF /* QualityChecklistViewController.swift */,
+				33B6A6A3256F187B002A62B2 /* SectionListsViewController.swift */,
 			);
 			path = CheckList;
 			sourceTree = "<group>";
@@ -344,6 +356,7 @@
 			files = (
 				33CA9E4D256B31FD0037B57A /* LaunchScreen.storyboard in Resources */,
 				338670CB256DD3CD00B9F22A /* CustomAuditDetailsView.xib in Resources */,
+				3309B686256F272300290D0F /* SectionItemTableViewCell.xib in Resources */,
 				33CA9E4A256B31FD0037B57A /* Assets.xcassets in Resources */,
 				33CA9E48256B31FD0037B57A /* Main.storyboard in Resources */,
 				33784B7A256BFF370089F0FF /* SFProText-Regular.ttf in Resources */,
@@ -432,6 +445,8 @@
 				338670C5256DD38500B9F22A /* CustomAuditDetailsView.swift in Sources */,
 				33784B84256C08860089F0FF /* UIView+Extensions.swift in Sources */,
 				338DB98A256E9F7A0031B5AC /* AuditListViewController.swift in Sources */,
+				3309B685256F272300290D0F /* SectionItemTableViewCell.swift in Sources */,
+				33B6A69E256EF2EF002A62B2 /* AuditTrailViewController.swift in Sources */,
 				338670D1256DD70D00B9F22A /* BaseCustomView.swift in Sources */,
 				33784B88256C45D60089F0FF /* QualityChecklistViewController.swift in Sources */,
 				33784B7E256C032E0089F0FF /* ProductDetailsViewController.swift in Sources */,
@@ -439,6 +454,7 @@
 				33CA9E6B256B40550037B57A /* UIColor+Extensions.swift in Sources */,
 				338DB992256EA6A90031B5AC /* AuditItemTableViewCell.swift in Sources */,
 				33CA9E41256B31FD0037B57A /* AppDelegate.swift in Sources */,
+				33B6A6A4256F187B002A62B2 /* SectionListsViewController.swift in Sources */,
 				33CA9E43256B31FD0037B57A /* SceneDelegate.swift in Sources */,
 				33CA9E68256B3D3C0037B57A /* AuditConstants.swift in Sources */,
 				33784B8C256C87270089F0FF /* AuditViewController.swift in Sources */,
