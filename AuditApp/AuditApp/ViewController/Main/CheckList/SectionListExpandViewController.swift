@@ -48,6 +48,13 @@ extension SectionListExpandViewController: UITableViewDataSource, UITableViewDel
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let header = tableView.dequeueReusableCell(withIdentifier: "SectionItemTableViewCell") as! SectionItemTableViewCell
         header.dataBinding()
+        // cach dung closure
+        header.didSelectCompletion = { [weak self] index in
+            guard let self = self else { return }
+            self.updateTableView(at: index)
+        }
+        
+        // cach dung delegate
         header.delegate = self
         header.button.tag = section
         return header
@@ -75,8 +82,31 @@ extension SectionListExpandViewController: UITableViewDataSource, UITableViewDel
         return .leastNonzeroMagnitude
     }
     
+    // cach dung closure
+    func updateTableView(at section: Int) {
+        
+        //demo cach su dung closure cho func
+//        testFunc(selectIndex: section) { number in
+//            print(number)
+//        }
+//
+//        return
+        
+        if let index = showSection.firstIndex(of: section) {
+            showSection.remove(at: index)
+        } else {
+            showSection.append(section)
+        }
+        tableView.reloadData()
+    }
+    
+    //demo closure dung trong function
+    func testFunc(selectIndex: Int, callback: ((Int) -> Void)) {
+        callback(selectIndex)
+    }
 }
 
+// cach dung protocol
 extension SectionListExpandViewController: SectionItemTableViewCellProtocol {
     func didSelectItem(cell: SectionItemTableViewCell, section: Int) {
         if let index = showSection.firstIndex(of: section) {
@@ -86,6 +116,4 @@ extension SectionListExpandViewController: SectionItemTableViewCellProtocol {
         }
         tableView.reloadData()
     }
-    
-    
 }

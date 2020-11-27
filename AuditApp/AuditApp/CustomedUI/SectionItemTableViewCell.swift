@@ -8,6 +8,8 @@
 
 import UIKit
 
+typealias SimpleClosure = (Int) -> Void
+
 // o vn dat ten la SectionItemTableViewCellDelegate
 @objc protocol SectionItemTableViewCellProtocol {
     func didSelectItem(cell: SectionItemTableViewCell, section: Int)
@@ -22,6 +24,12 @@ class SectionItemTableViewCell: UITableViewCell {
     @IBOutlet weak var progressLabel: UILabel!
     @IBOutlet weak var arrowImage: UIImageView!
     @IBOutlet weak var button: UIButton!
+
+    // cach viet 1 cho closure
+    var didSelectCompletion: SimpleClosure?
+    
+    // cach viet 2
+//    var didSelectCompletion: ((Int) -> Void)?
     
     func dataBinding() {
         headerLabel.text = "A"
@@ -30,7 +38,12 @@ class SectionItemTableViewCell: UITableViewCell {
     }
     
     @IBAction func sectionBtnTapped(_ sender: Any) {
-        delegate?.didSelectItem(cell: self, section: button.tag)
+//        delegate?.didSelectItem(cell: self, section: button.tag)
+        
+        // cach dung closure thay vi dung delegate
+        if let completion = didSelectCompletion {
+            completion(button.tag)
+        }
     }
     
 }
