@@ -10,6 +10,9 @@
 		0F1DC5CA2752C0C5102F6371 /* Pods_AuditApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EA81A8B9BC2D92FBA1769A /* Pods_AuditApp.framework */; };
 		3309B685256F272300290D0F /* SectionItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3309B683256F272300290D0F /* SectionItemTableViewCell.swift */; };
 		3309B686256F272300290D0F /* SectionItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3309B684256F272300290D0F /* SectionItemTableViewCell.xib */; };
+		3309B68E257070DC00290D0F /* SectionListExpandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3309B68D257070DC00290D0F /* SectionListExpandViewController.swift */; };
+		3309B6992570739D00290D0F /* SectionExpandTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3309B6972570739D00290D0F /* SectionExpandTableViewCell.swift */; };
+		3309B69A2570739D00290D0F /* SectionExpandTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3309B6982570739D00290D0F /* SectionExpandTableViewCell.xib */; };
 		33784B7A256BFF370089F0FF /* SFProText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33784B79256BFF370089F0FF /* SFProText-Regular.ttf */; };
 		33784B7E256C032E0089F0FF /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33784B7D256C032E0089F0FF /* ProductDetailsViewController.swift */; };
 		33784B84256C08860089F0FF /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33784B83256C08860089F0FF /* UIView+Extensions.swift */; };
@@ -48,6 +51,9 @@
 /* Begin PBXFileReference section */
 		3309B683256F272300290D0F /* SectionItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionItemTableViewCell.swift; sourceTree = "<group>"; };
 		3309B684256F272300290D0F /* SectionItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionItemTableViewCell.xib; sourceTree = "<group>"; };
+		3309B68D257070DC00290D0F /* SectionListExpandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionListExpandViewController.swift; sourceTree = "<group>"; };
+		3309B6972570739D00290D0F /* SectionExpandTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionExpandTableViewCell.swift; sourceTree = "<group>"; };
+		3309B6982570739D00290D0F /* SectionExpandTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionExpandTableViewCell.xib; sourceTree = "<group>"; };
 		33784B79256BFF370089F0FF /* SFProText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProText-Regular.ttf"; sourceTree = "<group>"; };
 		33784B7D256C032E0089F0FF /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
 		33784B83256C08860089F0FF /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
@@ -110,6 +116,8 @@
 				338670CA256DD3CD00B9F22A /* CustomAuditDetailsView.xib */,
 				3309B683256F272300290D0F /* SectionItemTableViewCell.swift */,
 				3309B684256F272300290D0F /* SectionItemTableViewCell.xib */,
+				3309B6972570739D00290D0F /* SectionExpandTableViewCell.swift */,
+				3309B6982570739D00290D0F /* SectionExpandTableViewCell.xib */,
 			);
 			path = CustomedUI;
 			sourceTree = "<group>";
@@ -150,6 +158,7 @@
 				33784B7D256C032E0089F0FF /* ProductDetailsViewController.swift */,
 				33784B87256C45D60089F0FF /* QualityChecklistViewController.swift */,
 				33B6A6A3256F187B002A62B2 /* SectionListsViewController.swift */,
+				3309B68D257070DC00290D0F /* SectionListExpandViewController.swift */,
 			);
 			path = CheckList;
 			sourceTree = "<group>";
@@ -354,6 +363,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3309B69A2570739D00290D0F /* SectionExpandTableViewCell.xib in Resources */,
 				33CA9E4D256B31FD0037B57A /* LaunchScreen.storyboard in Resources */,
 				338670CB256DD3CD00B9F22A /* CustomAuditDetailsView.xib in Resources */,
 				3309B686256F272300290D0F /* SectionItemTableViewCell.xib in Resources */,
@@ -456,7 +466,9 @@
 				33CA9E41256B31FD0037B57A /* AppDelegate.swift in Sources */,
 				33B6A6A4256F187B002A62B2 /* SectionListsViewController.swift in Sources */,
 				33CA9E43256B31FD0037B57A /* SceneDelegate.swift in Sources */,
+				3309B6992570739D00290D0F /* SectionExpandTableViewCell.swift in Sources */,
 				33CA9E68256B3D3C0037B57A /* AuditConstants.swift in Sources */,
+				3309B68E257070DC00290D0F /* SectionListExpandViewController.swift in Sources */,
 				33784B8C256C87270089F0FF /* AuditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

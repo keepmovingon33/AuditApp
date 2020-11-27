@@ -5,7 +5,6 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -54,7 +53,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="d2t-qb-Z2n" secondAttribute="trailing" constant="16" id="Boe-5t-m9x"/>
                             <constraint firstItem="PZo-rE-hIm" firstAttribute="leading" secondItem="fAd-3G-lPT" secondAttribute="leading" id="Cza-X9-auz"/>
@@ -66,10 +65,21 @@
                             <constraint firstItem="PZo-rE-hIm" firstAttribute="top" secondItem="fAd-3G-lPT" secondAttribute="top" constant="10" id="o8q-Fe-F7T"/>
                         </constraints>
                     </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d9P-8J-K6y">
+                        <rect key="frame" x="0.0" y="0.0" width="371" height="106"/>
+                        <connections>
+                            <action selector="sectionBtnTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Rd2-2a-Gey"/>
+                        </connections>
+                    </button>
                 </subviews>
                 <constraints>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="riJ-SZ-RFz" secondAttribute="bottom" constant="18" id="2iA-XW-3Cw"/>
+                    <constraint firstAttribute="trailing" secondItem="d9P-8J-K6y" secondAttribute="trailing" id="6Ew-Ph-zoJ"/>
                     <constraint firstItem="riJ-SZ-RFz" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="BMF-hx-gQg"/>
+                    <constraint firstItem="d9P-8J-K6y" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="CgW-px-HLX"/>
+                    <constraint firstItem="d9P-8J-K6y" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="EY6-Mc-7Uk"/>
                     <constraint firstItem="riJ-SZ-RFz" firstAttribute="leading" secondItem="BWN-rE-e3f" secondAttribute="trailing" constant="16" id="Hsa-3g-x4F"/>
+                    <constraint firstAttribute="bottom" secondItem="d9P-8J-K6y" secondAttribute="bottom" id="S2f-mz-Rqw"/>
                     <constraint firstAttribute="bottom" secondItem="fAd-3G-lPT" secondAttribute="bottom" id="Xts-Am-AJ1"/>
                     <constraint firstItem="fAd-3G-lPT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="cCf-gN-QRH"/>
                     <constraint firstAttribute="trailing" secondItem="fAd-3G-lPT" secondAttribute="trailing" id="gE3-US-HSG"/>
@@ -81,17 +91,15 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="arrowImage" destination="d2t-qb-Z2n" id="f7a-Ys-OSQ"/>
+                <outlet property="button" destination="d9P-8J-K6y" id="prO-uh-dGl"/>
                 <outlet property="descriptionLabel" destination="riJ-SZ-RFz" id="Cjn-iC-Xha"/>
                 <outlet property="headerLabel" destination="BWN-rE-e3f" id="bve-7u-mln"/>
                 <outlet property="progressLabel" destination="URk-Rd-SYP" id="bco-x3-jqM"/>
             </connections>
-            <point key="canvasLocation" x="21" y="113"/>
+            <point key="canvasLocation" x="19.565217391304348" y="112.5"/>
         </tableViewCell>
     </objects>
     <resources>
         <image name="ic_arrow" width="7" height="13"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
