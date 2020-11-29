@@ -24,6 +24,7 @@
 		33886DCB256ED60D006A1119 /* AuditSystemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33886DCA256ED60D006A1119 /* AuditSystemsViewController.swift */; };
 		338DB98A256E9F7A0031B5AC /* AuditListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338DB989256E9F7A0031B5AC /* AuditListViewController.swift */; };
 		338DB992256EA6A90031B5AC /* AuditItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338DB991256EA6A90031B5AC /* AuditItemTableViewCell.swift */; };
+		33923106257317FC00158136 /* ScoreSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33923105257317FC00158136 /* ScoreSummaryViewController.swift */; };
 		33B6A69E256EF2EF002A62B2 /* AuditTrailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6A69D256EF2EF002A62B2 /* AuditTrailViewController.swift */; };
 		33B6A6A4256F187B002A62B2 /* SectionListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6A6A3256F187B002A62B2 /* SectionListsViewController.swift */; };
 		33CA9E41256B31FD0037B57A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CA9E40256B31FD0037B57A /* AppDelegate.swift */; };
@@ -65,6 +66,7 @@
 		33886DCA256ED60D006A1119 /* AuditSystemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditSystemsViewController.swift; sourceTree = "<group>"; };
 		338DB989256E9F7A0031B5AC /* AuditListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditListViewController.swift; sourceTree = "<group>"; };
 		338DB991256EA6A90031B5AC /* AuditItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditItemTableViewCell.swift; sourceTree = "<group>"; };
+		33923105257317FC00158136 /* ScoreSummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreSummaryViewController.swift; sourceTree = "<group>"; };
 		33B6A69D256EF2EF002A62B2 /* AuditTrailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditTrailViewController.swift; sourceTree = "<group>"; };
 		33B6A6A3256F187B002A62B2 /* SectionListsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionListsViewController.swift; sourceTree = "<group>"; };
 		33CA9E3D256B31FD0037B57A /* AuditApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuditApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,6 +141,7 @@
 				33CA9E65256B35B40037B57A /* AuditGuideViewController.swift */,
 				33886DCA256ED60D006A1119 /* AuditSystemsViewController.swift */,
 				33B6A69D256EF2EF002A62B2 /* AuditTrailViewController.swift */,
+				33923105257317FC00158136 /* ScoreSummaryViewController.swift */,
 				338DB990256EA6660031B5AC /* Cells */,
 			);
 			path = Audit;
@@ -455,6 +458,7 @@
 				338670C5256DD38500B9F22A /* CustomAuditDetailsView.swift in Sources */,
 				33784B84256C08860089F0FF /* UIView+Extensions.swift in Sources */,
 				338DB98A256E9F7A0031B5AC /* AuditListViewController.swift in Sources */,
+				33923106257317FC00158136 /* ScoreSummaryViewController.swift in Sources */,
 				3309B685256F272300290D0F /* SectionItemTableViewCell.swift in Sources */,
 				33B6A69E256EF2EF002A62B2 /* AuditTrailViewController.swift in Sources */,
 				338670D1256DD70D00B9F22A /* BaseCustomView.swift in Sources */,
