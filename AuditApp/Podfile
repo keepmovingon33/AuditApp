@@ -6,6 +6,7 @@ target 'AuditApp' do
   use_frameworks!
   pod 'RxSwift', '6.0.0-rc.2'
   pod 'RxCocoa', '6.0.0-rc.2'
+  pod 'SpreadsheetView'
   
   # Pods for AuditApp
 
