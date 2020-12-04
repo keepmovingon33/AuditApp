@@ -10,9 +10,25 @@ import UIKit
 
 class ScoreSummaryViewController: UIViewController {
 
+    var arr: [Int] = [2,3,4]
+    
+    var adding: (Int, Int) -> (Int) = {(a: Int, b: Int) -> (Int) in
+        return a + b
+    }
+    
+    var add2: ((Int, Int) -> (Int))?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        print(adding(3,2))
+        
+        add2 = { (a: Int, b: Int) -> (Int) in
+            return a + b
+        }
+        if let a = add2 {
+            print(a(3,5))
+        }
     }
 }

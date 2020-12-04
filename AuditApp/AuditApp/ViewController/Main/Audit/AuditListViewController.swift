@@ -76,6 +76,21 @@ class AuditListViewController: UIViewController {
         items.bind(to: tableView.rx.items(cellIdentifier: AuditLists.identifier)) { row, model, cell in
             if let cell = cell as? AuditItemTableViewCell {
                 cell.dataBinding()
+                // simpleHandler
+//                cell.simpleHandler = { a in
+//                return a + row
+//                }
+                
+                // advancedHandler
+                cell.simpleHandler = { a in
+                    return a + row
+                }
+                
+                cell.advancedHanler = { simple in
+                    print("result = \(simple(4))")
+                }
+                
+                
             }
          }.disposed(by: disposeBag)
     }
